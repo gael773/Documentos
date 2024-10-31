@@ -1,0 +1,21 @@
+.comtemedor{
+    display: flex;
+    flex-direction: row;
+    /*    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+
+}
+.capa{
+    width: 20%;
+    background-color: tomato;
+    margin: 10px;
+
+}
+.capauno{
+    background-color: yellow;
+    margin: 10px;
+}

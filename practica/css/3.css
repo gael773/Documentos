@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.menu{
+    width: 50%;
+
+}
+.menu2{
+    width: 25%;
+}
+
+.pagina p{
+    text-align: center;
+    font-family: cursive;
+}
+.pagina{
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    text-align: center;
+    border: solid;
+    background-image: url(//img/PIPAN.png);
+}
+#menu{
+    flex-grow: 1;
+    text-align: left;
+    border: solid;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.usuario{
+    width: 33.3%;
+    text-align: center;
+    border: solid;
+    padding: 14px;
+    
+}
+.usuario img{
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.btn{
+    background-color: aqua;
+}
+.form{
+    width: 100%;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid ;
+    border-radius: 4px;
+}

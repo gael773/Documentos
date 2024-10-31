@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <section id="tabla"> </section>
+        <button class="btn btn-primary" onclick="imprimir()">ver gato</button>
+        <button class="btn btn-secundary" onclick="ordenar()">ordenar</button>
+        <button class="btn btn-danger" onclick="eliminar_inicio()">Eliminar inicio</button>
+        <button class="btn btn-danger" onclick="eliminar_final()">Eliminar final</button>
+        <form id="formulario">
+            <div class="row mt-4">
+                <div class="col-sm-3">
+                    <input type="text" id="nombre" class="form-control" autofocus placeholder="Escribir nombre">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" id="edad" class="form-control" placeholder="Escribir edad">
+                </div>
+                <div class="col-sm-3">
+                    <select id="genero" class="form-control">
+                        <option value="">Selecciona...</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Helicoptero apache">Helicoptero apache</option>
+                    </select>
+                </div>
+                <div class="col-sm-3">
+                    <button id="boton" class="btn btn-primary">Guardar</button>
+                </div>
+            </div><!--final del formulario-->
+        </form>
+    </div>
+
+    </div>
+    <script src="js/objetos.js"></script>
+</body>
+
+</html>
